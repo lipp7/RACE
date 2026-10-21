@@ -1,0 +1,19 @@
+{
+  "full": {},
+  "base": {"mode": "ng"},
+  "correction_only": {"identity_weight": 0.0, "attack_weight": 0.0, "neutral_weight": 0.0},
+  "no_identity": {"identity_weight": 0.0},
+  "no_attack": {"attack_weight": 0.0},
+  "no_defense": {"neutral_weight": 0.0},
+  "no_preservation": {"preserve_weight": 0.0},
+  "static_semantics": {"structure": "static"},
+  "uniform_pooling": {"structure": "uniform_local"},
+  "random_rival": {"opponent": "fixed_random"},
+  "text_rival": {"opponent": "semantic_nn"},
+  "no_support": {"evidence": "no_support"},
+  "no_subtraction": {"evidence": "no_shared_residual"},
+  "random_preservation": {"preservation": "random"},
+  "random_preservation_gm": {"preservation": "random", "gradient_match": true},
+  "rotated_preservation": {"preservation": "rotated", "rotation_seed": 0},
+  "rotated_preservation_gm": {"preservation": "rotated", "rotation_seed": 0, "gradient_match": true}
+}

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "race-fgvc"
+version = "1.0.0"
+description = "Rival-Aware Concept Evidence for Fine-Grained Visual Recognition"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Yingqi Shi"}, {name = "Pengfei Wang"}]
+dependencies = ["torch>=2.1", "numpy>=1.23,<2", "pillow>=9.0"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["race*", "maft*", "scripts*"]

@@ -1,0 +1,11 @@
+torch>=2.1
+torchvision>=0.16
+open-clip-torch==2.26.1
+numpy>=1.23,<2
+pillow>=9.0
+scipy>=1.8
+pyarrow>=14.0
+matplotlib>=3.5
+ftfy>=6.1
+regex
+tqdm

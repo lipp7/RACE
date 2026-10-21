@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying RACE paper when using this software."
+type: software
+title: "RACE: Rival-Aware Concept Evidence for Fine-Grained Visual Recognition"
+authors:
+  - family-names: Shi
+    given-names: Yingqi
+  - family-names: Wang
+    given-names: Pengfei
+version: 1.0.0
+date-released: 2026-10-21
+license: MIT

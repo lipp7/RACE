@@ -1,0 +1,30 @@
+{
+  "CoOp": {
+    "url": "https://github.com/KaiyangZhou/CoOp.git",
+    "commit": "ff61507c790454bce7c5052c3ac39e60772f1f89"
+  },
+  "LaBo": {
+    "url": "https://github.com/YueYANG1996/LaBo.git",
+    "commit": "d66d4d948f149244c3ff30a16a77cc0455c16c5a"
+  },
+  "Tip-Adapter": {
+    "url": "https://github.com/gaopengcuhk/Tip-Adapter.git",
+    "commit": "d0e2d6f8c5feb8b6ce937b757810761f7155d4d5"
+  },
+  "ProLIP": {
+    "url": "https://github.com/astra-vision/ProLIP.git",
+    "commit": "b43e795cbf0b53a9b0aa83cf4f47d9755896ba6f"
+  },
+  "ProKeR": {
+    "url": "https://github.com/ybendou/ProKeR.git",
+    "commit": "f2ecb3d2a0d7e0993f977e550286b34f06015edb"
+  },
+  "PromptSRC": {
+    "url": "https://github.com/muzairkhattak/PromptSRC.git",
+    "commit": "bb95c77b634d63488f2cad81ff4a72d53bdd06d5"
+  },
+  "MaPLe": {
+    "url": "https://github.com/muzairkhattak/multimodal-prompt-learning.git",
+    "commit": "69bce21ae8eda80ad6187534b2dce09cf6c59e17"
+  }
+}

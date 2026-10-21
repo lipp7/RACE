@@ -1,0 +1,15 @@
+{
+  "epochs": 160,
+  "batch_size": 128,
+  "lr": 0.001,
+  "weight_decay": 0.01,
+  "mode": "smooth",
+  "structure": "full",
+  "opponent": "hardest",
+  "evidence": "full",
+  "identity_weight": 0.3,
+  "attack_weight": 0.03,
+  "neutral_weight": 0.03,
+  "preservation": "concept",
+  "preserve_weight": 1.0
+}

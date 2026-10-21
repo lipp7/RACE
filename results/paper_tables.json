@@ -1,0 +1,904 @@
+{
+  "description": "Measured paper results, transcribed from final tables; not training inputs.",
+  "tables": {
+    "tab:views": {
+      "rows": [
+        {
+          "variant": "CoOp",
+          "accuracy_percent": [
+            {
+              "mean": 68.84,
+              "sample_std": 0.5
+            },
+            {
+              "mean": 89.79,
+              "sample_std": 0.2
+            },
+            {
+              "mean": 92.99,
+              "sample_std": 0.42
+            },
+            {
+              "mean": 77.97,
+              "sample_std": 0.31
+            },
+            {
+              "mean": 42.77,
+              "sample_std": 0.98
+            }
+          ]
+        },
+        {
+          "variant": "CoCoOp",
+          "accuracy_percent": [
+            {
+              "mean": 55.13,
+              "sample_std": 0.62
+            },
+            {
+              "mean": 90.18,
+              "sample_std": 0.37
+            },
+            {
+              "mean": 78.85,
+              "sample_std": 1.23
+            },
+            {
+              "mean": 65.88,
+              "sample_std": 0.77
+            },
+            {
+              "mean": 28.62,
+              "sample_std": 0.73
+            }
+          ]
+        },
+        {
+          "variant": "MaPLe",
+          "accuracy_percent": [
+            {
+              "mean": 67.03,
+              "sample_std": 0.67
+            },
+            {
+              "mean": 91.21,
+              "sample_std": 0.13
+            },
+            {
+              "mean": 91.12,
+              "sample_std": 1.31
+            },
+            {
+              "mean": 77.76,
+              "sample_std": 0.32
+            },
+            {
+              "mean": 43.69,
+              "sample_std": 0.64
+            }
+          ]
+        },
+        {
+          "variant": "LaBo",
+          "accuracy_percent": [
+            {
+              "mean": 65.6,
+              "sample_std": 0.12
+            },
+            {
+              "mean": 90.03,
+              "sample_std": 0.74
+            },
+            {
+              "mean": 48.43,
+              "sample_std": 0.27
+            }
+          ]
+        },
+        {
+          "variant": "Tip-Adapter-F",
+          "accuracy_percent": [
+            {
+              "mean": 65.92,
+              "sample_std": 0.35
+            },
+            {
+              "mean": 89.04,
+              "sample_std": 0.39
+            },
+            {
+              "mean": 87.84,
+              "sample_std": 0.8
+            },
+            {
+              "mean": 75.79,
+              "sample_std": 0.2
+            },
+            {
+              "mean": 44.22,
+              "sample_std": 0.55
+            }
+          ]
+        },
+        {
+          "variant": "ProKeR",
+          "accuracy_percent": [
+            {
+              "mean": 70.15,
+              "sample_std": 0.19
+            },
+            {
+              "mean": 88.88,
+              "sample_std": 0.33
+            },
+            {
+              "mean": 94.04,
+              "sample_std": 0.88
+            },
+            {
+              "mean": 78.93,
+              "sample_std": 0.05
+            },
+            {
+              "mean": 49.64,
+              "sample_std": 0.49
+            }
+          ]
+        },
+        {
+          "variant": "ProLIP",
+          "accuracy_percent": [
+            {
+              "mean": 69.2,
+              "sample_std": 0.49
+            },
+            {
+              "mean": 90.29,
+              "sample_std": 0.59
+            },
+            {
+              "mean": 94.99,
+              "sample_std": 0.32
+            },
+            {
+              "mean": 78.7,
+              "sample_std": 0.51
+            },
+            {
+              "mean": 50.59,
+              "sample_std": 0.43
+            }
+          ]
+        },
+        {
+          "variant": "RACE (ours)",
+          "accuracy_percent": [
+            {
+              "mean": 78.79,
+              "sample_std": 0.35
+            },
+            {
+              "mean": 91.68,
+              "sample_std": 0.42
+            },
+            {
+              "mean": 95.22,
+              "sample_std": 0.5
+            },
+            {
+              "mean": 82.3,
+              "sample_std": 0.43
+            },
+            {
+              "mean": 54.1,
+              "sample_std": 0.53
+            }
+          ]
+        }
+      ],
+      "datasets": [
+        "CUB",
+        "Pets",
+        "Flowers",
+        "Cars",
+        "Aircraft"
+      ]
+    },
+    "tab:main5": {
+      "rows": [
+        {
+          "variant": "Base",
+          "accuracy_percent": [
+            {
+              "mean": 78.53,
+              "sample_std": 0.6
+            },
+            {
+              "mean": 80.55,
+              "sample_std": 0.53
+            },
+            {
+              "mean": 53.08,
+              "sample_std": 0.48
+            }
+          ]
+        },
+        {
+          "variant": "Correction only",
+          "accuracy_percent": [
+            {
+              "mean": 78.45,
+              "sample_std": 0.51
+            },
+            {
+              "mean": 82.2,
+              "sample_std": 0.23
+            },
+            {
+              "mean": 53.65,
+              "sample_std": 0.42
+            }
+          ]
+        },
+        {
+          "variant": "No preservation",
+          "accuracy_percent": [
+            {
+              "mean": 76.67,
+              "sample_std": 0.11
+            },
+            {
+              "mean": 78.83,
+              "sample_std": 1.13
+            },
+            {
+              "mean": 51.8,
+              "sample_std": 1.22
+            }
+          ]
+        },
+        {
+          "variant": "RACE (ours)",
+          "accuracy_percent": [
+            {
+              "mean": 78.69,
+              "sample_std": 0.35
+            },
+            {
+              "mean": 82.15,
+              "sample_std": 0.28
+            },
+            {
+              "mean": 54.29,
+              "sample_std": 0.36
+            }
+          ]
+        }
+      ],
+      "datasets": [
+        "CUB",
+        "Cars",
+        "Aircraft"
+      ]
+    },
+    "tab:design": {
+      "rows": [
+        {
+          "variant": "RACE (ours)",
+          "accuracy_percent": [
+            {
+              "mean": 78.69,
+              "sample_std": 0.35
+            },
+            {
+              "mean": 82.15,
+              "sample_std": 0.28
+            },
+            {
+              "mean": 54.29,
+              "sample_std": 0.36
+            }
+          ]
+        },
+        {
+          "variant": "Static semantics",
+          "accuracy_percent": [
+            {
+              "mean": 78.4,
+              "sample_std": 0.56
+            },
+            {
+              "mean": 81.92,
+              "sample_std": 0.47
+            },
+            {
+              "mean": 53.92,
+              "sample_std": 0.84
+            }
+          ]
+        },
+        {
+          "variant": "Uniform aggregation",
+          "accuracy_percent": [
+            {
+              "mean": 69.51,
+              "sample_std": 1.28
+            },
+            {
+              "mean": 77.67,
+              "sample_std": 0.34
+            },
+            {
+              "mean": 50.41,
+              "sample_std": 0.73
+            }
+          ]
+        },
+        {
+          "variant": "Fixed random rival",
+          "accuracy_percent": [
+            {
+              "mean": 77.47,
+              "sample_std": 0.43
+            },
+            {
+              "mean": 78.6,
+              "sample_std": 0.49
+            },
+            {
+              "mean": 51.58,
+              "sample_std": 0.76
+            }
+          ]
+        },
+        {
+          "variant": "Text-nearest rival",
+          "accuracy_percent": [
+            {
+              "mean": 77.09,
+              "sample_std": 0.69
+            },
+            {
+              "mean": 79.69,
+              "sample_std": 0.18
+            },
+            {
+              "mean": 52.24,
+              "sample_std": 1.3
+            }
+          ]
+        },
+        {
+          "variant": "No support \\(\\eta_i\\)",
+          "accuracy_percent": [
+            {
+              "mean": 77.61,
+              "sample_std": 0.89
+            },
+            {
+              "mean": 79.86,
+              "sample_std": 1.01
+            },
+            {
+              "mean": 52.78,
+              "sample_std": 0.25
+            }
+          ]
+        },
+        {
+          "variant": "No subtraction",
+          "accuracy_percent": [
+            {
+              "mean": 78.48,
+              "sample_std": 0.39
+            },
+            {
+              "mean": 81.74,
+              "sample_std": 0.11
+            },
+            {
+              "mean": 54.11,
+              "sample_std": 1.01
+            }
+          ]
+        }
+      ],
+      "datasets": [
+        "CUB",
+        "Cars",
+        "Aircraft"
+      ]
+    },
+    "tab:app-ablation": {
+      "rows": [
+        {
+          "variant": "Base (no competition)",
+          "accuracy_percent": [
+            {
+              "mean": 78.53,
+              "sample_std": 0.6
+            },
+            {
+              "mean": 92.12,
+              "sample_std": 0.45
+            },
+            {
+              "mean": 95.36,
+              "sample_std": 0.56
+            },
+            {
+              "mean": 80.55,
+              "sample_std": 0.53
+            },
+            {
+              "mean": 53.08,
+              "sample_std": 0.48
+            }
+          ]
+        },
+        {
+          "variant": "Score correction only",
+          "accuracy_percent": [
+            {
+              "mean": 78.45,
+              "sample_std": 0.51
+            },
+            {
+              "mean": 91.89,
+              "sample_std": 0.18
+            },
+            {
+              "mean": 95.73,
+              "sample_std": 0.4
+            },
+            {
+              "mean": 82.2,
+              "sample_std": 0.23
+            },
+            {
+              "mean": 53.65,
+              "sample_std": 0.42
+            }
+          ]
+        },
+        {
+          "variant": "RACE w/o identity",
+          "accuracy_percent": [
+            {
+              "mean": 78.52,
+              "sample_std": 0.53
+            },
+            {
+              "mean": 91.75,
+              "sample_std": 0.27
+            },
+            {
+              "mean": 95.07,
+              "sample_std": 1.31
+            },
+            {
+              "mean": 82.27,
+              "sample_std": 0.54
+            },
+            {
+              "mean": 53.89,
+              "sample_std": 0.81
+            }
+          ]
+        },
+        {
+          "variant": "RACE w/o attack",
+          "accuracy_percent": [
+            {
+              "mean": 78.55,
+              "sample_std": 0.51
+            },
+            {
+              "mean": 91.74,
+              "sample_std": 0.45
+            },
+            {
+              "mean": 95.53,
+              "sample_std": 0.69
+            },
+            {
+              "mean": 82.3,
+              "sample_std": 0.49
+            },
+            {
+              "mean": 54.25,
+              "sample_std": 0.97
+            }
+          ]
+        },
+        {
+          "variant": "RACE w/o defense",
+          "accuracy_percent": [
+            {
+              "mean": 78.52,
+              "sample_std": 0.65
+            },
+            {
+              "mean": 91.57,
+              "sample_std": 0.52
+            },
+            {
+              "mean": 95.7,
+              "sample_std": 0.36
+            },
+            {
+              "mean": 82.3,
+              "sample_std": 0.47
+            },
+            {
+              "mean": 54.19,
+              "sample_std": 0.72
+            }
+          ]
+        },
+        {
+          "variant": "RACE w/o preservation",
+          "accuracy_percent": [
+            {
+              "mean": 76.67,
+              "sample_std": 0.11
+            },
+            {
+              "mean": 91.26,
+              "sample_std": 0.18
+            },
+            {
+              "mean": 95.07,
+              "sample_std": 0.62
+            },
+            {
+              "mean": 78.83,
+              "sample_std": 1.13
+            },
+            {
+              "mean": 51.8,
+              "sample_std": 1.22
+            }
+          ]
+        },
+        {
+          "variant": "RACE (ours)",
+          "accuracy_percent": [
+            {
+              "mean": 78.69,
+              "sample_std": 0.35
+            },
+            {
+              "mean": 91.73,
+              "sample_std": 0.39
+            },
+            {
+              "mean": 95.76,
+              "sample_std": 0.26
+            },
+            {
+              "mean": 82.15,
+              "sample_std": 0.28
+            },
+            {
+              "mean": 54.29,
+              "sample_std": 0.36
+            }
+          ]
+        }
+      ],
+      "datasets": [
+        "CUB",
+        "Pets",
+        "Flowers",
+        "Cars",
+        "Aircraft"
+      ]
+    },
+    "tab:b16": {
+      "rows": [
+        {
+          "variant": "B/16 full / Base",
+          "accuracy_percent": [
+            {
+              "mean": 83.28,
+              "sample_std": 0.44
+            },
+            {
+              "mean": 93.75,
+              "sample_std": 0.16
+            },
+            {
+              "mean": 96.74,
+              "sample_std": 0.69
+            },
+            {
+              "mean": 85.25,
+              "sample_std": 0.08
+            },
+            {
+              "mean": 62.06,
+              "sample_std": 0.29
+            }
+          ]
+        },
+        {
+          "variant": "B/16 full / RACE (ours)",
+          "accuracy_percent": [
+            {
+              "mean": 83.24,
+              "sample_std": 0.39
+            },
+            {
+              "mean": 93.76,
+              "sample_std": 0.23
+            },
+            {
+              "mean": 96.68,
+              "sample_std": 0.69
+            },
+            {
+              "mean": 86.25,
+              "sample_std": 0.04
+            },
+            {
+              "mean": 64.34,
+              "sample_std": 0.8
+            }
+          ]
+        },
+        {
+          "variant": "16-shot / ProKeR (global)",
+          "accuracy_percent": [
+            {
+              "mean": 77.15,
+              "sample_std": 0.57
+            },
+            {
+              "mean": 91.06,
+              "sample_std": 1.67
+            },
+            {
+              "mean": 97.23,
+              "sample_std": 0.12
+            },
+            {
+              "mean": 81.32,
+              "sample_std": 0.38
+            },
+            {
+              "mean": 45.45,
+              "sample_std": 1.08
+            }
+          ]
+        },
+        {
+          "variant": "16-shot / ProKeR (ten-view mean)",
+          "accuracy_percent": [
+            {
+              "mean": 71.3,
+              "sample_std": 0.27
+            },
+            {
+              "mean": 87.55,
+              "sample_std": 0.15
+            },
+            {
+              "mean": 96.01,
+              "sample_std": 0.16
+            },
+            {
+              "mean": 76.56,
+              "sample_std": 0.14
+            },
+            {
+              "mean": 43.86,
+              "sample_std": 1.14
+            }
+          ]
+        },
+        {
+          "variant": "16-shot / Base",
+          "accuracy_percent": [
+            {
+              "mean": 81.06,
+              "sample_std": 0.4
+            },
+            {
+              "mean": 90.99,
+              "sample_std": 0.39
+            },
+            {
+              "mean": 97.17,
+              "sample_std": 0.2
+            },
+            {
+              "mean": 80.92,
+              "sample_std": 0.87
+            },
+            {
+              "mean": 51.7,
+              "sample_std": 1.0
+            }
+          ]
+        },
+        {
+          "variant": "16-shot / RACE (ours)",
+          "accuracy_percent": [
+            {
+              "mean": 80.74,
+              "sample_std": 0.07
+            },
+            {
+              "mean": 89.33,
+              "sample_std": 0.16
+            },
+            {
+              "mean": 97.25,
+              "sample_std": 0.7
+            },
+            {
+              "mean": 80.95,
+              "sample_std": 2.04
+            },
+            {
+              "mean": 52.06,
+              "sample_std": 0.64
+            }
+          ]
+        },
+        {
+          "variant": "B/32 full / Linear probe (mean)",
+          "accuracy_percent": [
+            {
+              "mean": 69.12,
+              "sample_std": 0.7
+            },
+            {
+              "mean": 87.37,
+              "sample_std": 0.24
+            },
+            {
+              "mean": 95.52,
+              "sample_std": 0.63
+            },
+            {
+              "mean": 78.53,
+              "sample_std": 0.84
+            },
+            {
+              "mean": 52.52,
+              "sample_std": 0.44
+            }
+          ]
+        },
+        {
+          "variant": "B/32 full / Linear probe (concat.)",
+          "accuracy_percent": [
+            {
+              "mean": 69.85,
+              "sample_std": 0.45
+            },
+            {
+              "mean": 87.16,
+              "sample_std": 0.43
+            },
+            {
+              "mean": 95.12,
+              "sample_std": 0.19
+            },
+            {
+              "mean": 77.32,
+              "sample_std": 0.33
+            },
+            {
+              "mean": 59.73,
+              "sample_std": 0.44
+            }
+          ]
+        }
+      ],
+      "datasets": [
+        "CUB",
+        "Pets",
+        "Flowers",
+        "Cars",
+        "Aircraft"
+      ]
+    },
+    "tab:spectrum": {
+      "rows": [
+        {
+          "variant": "Concepts (ours)",
+          "accuracy_percent": [
+            {
+              "mean": 78.89,
+              "sample_std": 0.31
+            },
+            {
+              "mean": 82.3,
+              "sample_std": 0.26
+            },
+            {
+              "mean": 95.91,
+              "sample_std": 0.21
+            }
+          ]
+        },
+        {
+          "variant": "Random",
+          "accuracy_percent": [
+            {
+              "mean": 76.45,
+              "sample_std": 0.58
+            },
+            {
+              "mean": 80.16,
+              "sample_std": 0.38
+            },
+            {
+              "mean": 94.23,
+              "sample_std": 0.74
+            }
+          ]
+        },
+        {
+          "variant": "Random + GM",
+          "accuracy_percent": [
+            {
+              "mean": 76.94,
+              "sample_std": 0.18
+            },
+            {
+              "mean": 80.22,
+              "sample_std": 0.97
+            },
+            {
+              "mean": 94.57,
+              "sample_std": 0.89
+            }
+          ]
+        },
+        {
+          "variant": "Rotation\\(^{\\dagger}\\)",
+          "accuracy_percent": [
+            {
+              "mean": 78.7,
+              "sample_std": 0.32
+            },
+            {
+              "mean": 82.55,
+              "sample_std": 0.54
+            },
+            {
+              "mean": 94.24,
+              "sample_std": 1.01
+            }
+          ]
+        },
+        {
+          "variant": "Rot. + GM\\(^{\\dagger}\\)",
+          "accuracy_percent": [
+            {
+              "mean": 78.28,
+              "sample_std": 0.9
+            },
+            {
+              "mean": 81.75,
+              "sample_std": 1.07
+            },
+            {
+              "mean": 94.58,
+              "sample_std": 0.8
+            }
+          ]
+        }
+      ],
+      "datasets": [
+        "CUB",
+        "Cars",
+        "Flowers"
+      ]
+    }
+  }
+}
